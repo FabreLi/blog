@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Haojen # your blog title name
+title: Fabre Li # your blog title name
 subtitle:  
-author: Haojen Ma # 作者
-language: 
+author: Fabre Li # 作者
+language: Chinese Cantonese English
 timezone: 
 
 # custom Site settings
@@ -29,10 +29,10 @@ permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username: haojen
-zhihu_username: megahertz
-github_username: haojen
-twitter_username: ehazon
+weibo_username: 
+zhihu_username: 
+github_username: 
+twitter_username: 
 facebook_username:  
 linkedin_username:  
 
@@ -57,8 +57,8 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: # 个人描述
-sidebar-avatar:     # use absolute URL
+sidebar-about-description: 你失望吗 我并不是你想象的那个样子 # 个人描述
+sidebar-avatar: https://ooo.0o0.ooo/2017/01/16/587bb54ba87c0.jpeg    # use absolute URL
 
 
 # Featured Tags
@@ -129,9 +129,9 @@ theme: Anisina
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
-  branch: 
+  type: git
+  repo: https://github.com/FabreLi/FabreLi.github.io.git
+  branch: master
 
 
 # img CDN path
