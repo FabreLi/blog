@@ -11,7 +11,7 @@ timezone:
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: 
+SEOTitle: Fabre Li
 header-img: 
 email: 
 description: 
@@ -31,7 +31,7 @@ permalink_defaults:
 # RSS:
 weibo_username: 
 zhihu_username: 
-github_username: 
+github_username: FabreLi
 twitter_username: 
 facebook_username:  
 linkedin_username:  
@@ -44,9 +44,9 @@ anchorjs: false                        # if you want to customize anchor. check 
 disqus_username: 
 
 # Duoshuo settings
-duoshuo_username:  # 你的多说帐号
+duoshuo_username: # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: true                   # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
@@ -57,7 +57,7 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: 你失望吗 我并不是你想象的那个样子 # 个人描述
+sidebar-about-description: 你失望吗 我并不是你想象的样子 # 个人描述
 sidebar-avatar: https://ooo.0o0.ooo/2017/01/16/587bb54ba87c0.jpeg    # use absolute URL
 
 
