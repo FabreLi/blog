@@ -46,7 +46,7 @@ disqus_username:
 # Duoshuo settings
 duoshuo_username: # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                   # set to false if you want to use Comment without Sharing
+duoshuo_share: false                   # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
@@ -77,6 +77,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+tech_dir: tech
 
 # Writing
 new_post_name: :title.md # File name of new posts
