@@ -2,9 +2,12 @@
 layout: layout
 ---
 <style>
-    .intro-header .site-heading {
-        margin: 50px;
-    }
+    header.intro-header{
+background-image: url('http://ocnnxadky.bkt.clouddn.com/16-9-11/335924.jpg');
+}
+header.site-heading {
+background-image: url('http://ocnnxadky.bkt.clouddn.com/16-9-11/335924.jpg');
+}
 </style>
 
 <!-- Page Header -->
@@ -13,8 +16,7 @@ layout: layout
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading text-center">
-                    <h1><%= page.title || config.title %></h1>
-                    <span class="subheading"><%= page.description || config.subtitle || "" %></span>
+                    <span class="subheading">在这里你可以根据标签，快速检索文章。<%= page.description || config.subtitle || "" %></span>
                 </div>
             </div>
         </div>
