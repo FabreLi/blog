@@ -66,8 +66,21 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # friends
-friends: 
-Terry's Blog: http://terry.pub
+friends: [
+        {
+                title: "Terry",
+                href: "https://terry.pub"
+        },
+        {
+                title: "Kwan",
+                href: "http://tsang.site"
+        },
+        {
+                title: "CK",
+                href: "http://leslie-ck.com"
+        }
+]
+
 # 友链
 
 # Directory
