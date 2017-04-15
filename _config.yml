@@ -139,6 +139,8 @@ markdown:
     - markdown-it-sub
     - markdown-it-sup
     - markdown-it-emoji
+    - hexo-math
+
 
 ## Themes: https://hexo.io/themes/
 theme: Anisina
