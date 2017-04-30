@@ -24,7 +24,7 @@ favicon: /Favicon.ico # your favicon png
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://fabre-li.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # SNS settings
