@@ -181,9 +181,18 @@ math:
   mathjax:
     src: '//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
     config:
-      # MathJax config
-  katex:
-    css: custom_css_source
-    js: custom_js_source # not used
-    config:
-      # KaTeX config
+      tex2jax:
+        inlineMath:
+          - ['$','$']
+          - ["\\(","\\)"]
+        skipTags:
+          - 'script'
+          - 'noscript'
+          - 'style'
+          - 'textarea'
+          - 'pre'
+          - 'code'
+        processEscapes: true
+      TeX:
+        equationNumbers:
+          autoNumber: AMS
