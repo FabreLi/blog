@@ -4,17 +4,17 @@
 
 # Site
 title: Fabre Li # your blog title name
-subtitle:  
+subtitle:
 author: Fabre Li # 作者
 language: Chinese Cantonese English
-timezone: 
+timezone:
 
 # custom Site settings
 # more detail check out docs
 SEOTitle: Fabre Li
-header-img: 
-email: 
-description: 
+header-img:
+email:
+description:
 keyword: # seo key words
 
 favicon: /Favicon.ico # your favicon png
@@ -29,18 +29,18 @@ permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username:     
-zhihu_username: 
+weibo_username:
+zhihu_username:
 github_username: FabreLi
-twitter_username: 
-facebook_username:  
-linkedin_username:  
+twitter_username:
+facebook_username:
+linkedin_username:
 
 # Build settings
 anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
 
 
-# Disqus settings 
+# Disqus settings
 disqus_username: fabreli
 
 # Duoshuo settings
@@ -167,10 +167,23 @@ post-default-img: #博文默认的图片
 post-default-img-mobile: #移动端显示的图片
 
 # search api , set your custom key
-swiftype_key: 
+swiftype_key:
 
 
-# archive page title 
+# archive page title
 archive:
     title: archives
     description: 可以根据归档日期检索所有文件
+
+# MathJax
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: '//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
