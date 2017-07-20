@@ -149,7 +149,7 @@ theme: Anisina
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/FabreLi/FabreLi.github.io.git
+  repo: https://coding.net/u/Fabre/p/Blog/git
   branch: master
 
 
