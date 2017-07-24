@@ -4,11 +4,11 @@ language: en
 
 # seo优化
 seo:
- keywords: "fabre"
- description: "Fabre Li's Blog"
+ keywords: "网站关键字"
+ description: "网站简介"
 
 # Miscelaneous
-favicon: /source/Favicon.ico
+favicon: /source/favicon.ico
 
 # head-bg 头像背景图 
 headbg: /images/header-bg.png
@@ -19,8 +19,8 @@ header: /images/header.png
 post_header:
   img: /images/coverpic.png
   about:
-    - "你好 欢迎来到 Fabre Li 的博客"
-  url: "http://fabre-li.com"
+    - "你好 欢迎来到本站"
+  url: "http://example.com"
   visitor_front: "你是第"
   visitor_back: "位访客"
 
