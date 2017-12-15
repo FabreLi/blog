@@ -3,63 +3,62 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fabre Li # your blog title name
-subtitle:
-author: Fabre Li # 作者
-language: Chinese Cantonese English
-timezone:
+title: Haojen # your blog title name
+subtitle:  
+author: Haojen Ma # 作者
+language: 
+timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Fabre Li
-header-img:
-email:
-description:
+SEOTitle: Haojen's blog 
+header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
+email: HaojenMa@gmail.com
+description: "马浩珍在 Github 上的个人博客"
 keyword: # seo key words
 
-favicon: /Favicon.ico # your favicon png
+favicon: # your favicon png
 # custom end
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://fabre-li.com
+url: http://haojen.github.io
 root: /
-permalink: :title/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username:
-zhihu_username:
-github_username: FabreLi
-twitter_username:
-facebook_username:
-linkedin_username:
+weibo_username: haojen
+zhihu_username: megahertz
+github_username: haojen
+twitter_username: ehazon
+facebook_username:  
+linkedin_username:  
 
 # Build settings
 anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
 
 
-# Disqus settings
-disqus_username: fabreli
+# Disqus settings 
+disqus_username: 
 
 # Duoshuo settings
-duoshuo_username: # 你的多说帐号
+duoshuo_username:  # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                   # set to false if you want to use Comment without Sharing
-
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings
 # Baidu Analytics
 ba_track_id:
 # Google Analytics
-ga_track_id: UA-93768121-1             # Format: UA-xxxxxx-xx
+ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: 你失望吗 我并不是你想象的样子 # 个人描述
-sidebar-avatar: https://ooo.0o0.ooo/2017/01/16/587bb54ba87c0.jpeg    # use absolute URL
+sidebar-about-description: # 个人描述
+sidebar-avatar:     # use absolute URL
 
 
 # Featured Tags
@@ -67,22 +66,7 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # friends
-friends: [
-        {
-                title: "Terry",
-                href: "https://terry.pub"
-        },
-        {
-                title: "Kwan",
-                href: "http://tsang.site"
-        },
-        {
-                title: "CK",
-                href: "http://leslie-ck.com"
-        }
-]
-
-# 友链
+friends:  # 友链
 
 # Directory
 source_dir: source
@@ -93,7 +77,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-tech_dir: tech
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -139,8 +122,6 @@ markdown:
     - markdown-it-sub
     - markdown-it-sup
     - markdown-it-emoji
-    - hexo-math
-
 
 ## Themes: https://hexo.io/themes/
 theme: Anisina
@@ -148,9 +129,9 @@ theme: Anisina
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://git.coding.net/Fabre/Blog.git
-  branch: master
+  type: 
+  repo: 
+  branch: 
 
 
 # img CDN path
@@ -167,32 +148,10 @@ post-default-img: #博文默认的图片
 post-default-img-mobile: #移动端显示的图片
 
 # search api , set your custom key
-swiftype_key:
+swiftype_key: 
 
 
-# archive page title
+# archive page title 
 archive:
     title: archives
     description: 可以根据归档日期检索所有文件
-
-# MathJax
-math:
-  engine: 'mathjax' # or 'katex'
-  mathjax:
-    src: '//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-    config:
-      tex2jax:
-        inlineMath:
-          - ['$','$']
-          - ["\\(","\\)"]
-        skipTags:
-          - 'script'
-          - 'noscript'
-          - 'style'
-          - 'textarea'
-          - 'pre'
-          - 'code'
-        processEscapes: true
-      TeX:
-        equationNumbers:
-          autoNumber: AMS
