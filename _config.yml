@@ -197,6 +197,11 @@ math:
         equationNumbers:
           autoNumber: AMS
 
+# RSS订阅支持
+plugin:
+- hexo-generator-feed
+
+# Feed Atom
 feed:
   type: atom
   path: atom.xml
