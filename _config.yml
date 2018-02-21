@@ -1,99 +1,51 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
+## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fabre Li # your blog title name
-subtitle:
-author: Fabre Li # 作者
-language: Chinese Cantonese English
-timezone:
-
-# custom Site settings
-# more detail check out docs
-SEOTitle: Fabre Li
-header-img:
-email:
-description:
-keyword: # seo key words
-
-favicon: /Favicon.ico # your favicon png
-# custom end
+title: Fabre Li 的博客
+subtitle: 你失望吗 我并不是你想象的样子
+author: Fabre Li
+description: 一个深夜睡不着的好去处。
+keywords: "广州仔,单身狗,热爱HK,运动,游戏,工科狗"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://fabre-li.com
 root: /
 permalink: :title/
-permalink_defaults:
-
-# SNS settings
-# RSS:
-weibo_username:
-zhihu_username:
-github_username: FabreLi
-twitter_username:
-facebook_username:
-linkedin_username:
-
-# Build settings
-anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
-
-
-# Disqus settings
-disqus_username: fabreli
-
-# Duoshuo settings
-duoshuo_username: # 你的多说帐号
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                   # set to false if you want to use Comment without Sharing
-
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id:
-# Google Analytics
-ga_track_id: UA-93768121-1             # Format: UA-xxxxxx-xx
-ga_domain:
-
-# Sidebar settings
-sidebar-about-description: 你失望吗 我并不是你想象的样子 # 个人描述
-sidebar-avatar: https://ooo.0o0.ooo/2017/01/16/587bb54ba87c0.jpeg    # use absolute URL
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-# friends
-friends: [
-        {
-                title: "Terry",
-                href: "https://terry.pub"
-        },
-        {
-                title: "Kwan",
-                href: "http://tsang.site"
-        },
-        {
-                title: "CK",
-                href: "http://leslie-ck.com"
-        }
-]
-
-# 友链
-
-# Directory
-source_dir: source
-public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-tech_dir: tech
+permalink_defaults:
+
+#你的头像url
+avatar: https://i.loli.net/2018/02/21/5a8d70307ec97.jpg
+
+# SubNav
+subnav:
+  github: "https://github.com/FabreLi"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
+  #qq: "#"
+  #weixin: "#"
+  #jianshu: "#"
+  #douban: "#"
+  #segmentfault: "#"
+  #bilibili: "#"
+  #acfun: "#"
+  #mail: "mailto:litten225@qq.com"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+
+# Directory
+source_dir: source
+public_dir: public
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -102,19 +54,35 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: false
-  auto_detect: false
-  tab_replace:
+highlight:                                                                                                                                                                                                   
+  enable: true                                                                                                                                                                                               
+  auto_detect: true                                                                                                                                                                                          
+  line_number: true                                                                                                                                                                                          
+  tab_replace: ''
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 1
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: localhost
+logger: false
+logger_format: dev
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -128,85 +96,57 @@ time_format: HH:mm:ss
 per_page: 8
 pagination_dir: page
 
+# Disqus
+disqus_shortname: fabreli
+
 # Extensions
-## Plugins: https://hexo.io/plugins/
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+# plugins:
+#  - hexo-generator-feed
+#  - hexo-generator-baidu-sitemap
+#  - hexo-generator-sitemap
 
-markdown:
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-emoji
-    - hexo-math
-
-
-## Themes: https://hexo.io/themes/
-theme: Anisina
+theme: yilia
+exclude_generator:
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: http://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repository: git@github.com:litten/litten.github.com.git
+#  branch: master
+
 deploy:
   type: git
   repo: https://git.coding.net/Fabre/Blog.git
   branch: master
 
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xm
 
-# img CDN path
-cdn-url:  # 你的CDN地址
-
-# Qiniu imageView2 API
-# More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
-clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
-clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
-clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
-
-# post default images
-post-default-img: #博文默认的图片
-post-default-img-mobile: #移动端显示的图片
-
-# search api , set your custom key
-swiftype_key:
-
-
-# archive page title
-archive:
-    title: archives
-    description: 可以根据归档日期检索所有文件
-
-# MathJax
-math:
-  engine: 'mathjax' # or 'katex'
-  mathjax:
-    src: '//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-    config:
-      tex2jax:
-        inlineMath:
-          - ['$','$']
-          - ["\\(","\\)"]
-        skipTags:
-          - 'script'
-          - 'noscript'
-          - 'style'
-          - 'textarea'
-          - 'pre'
-          - 'code'
-        processEscapes: true
-      TeX:
-        equationNumbers:
-          autoNumber: AMS
-
-# RSS订阅支持
-plugin:
-- hexo-generator-feed
-
-# Feed Atom
 feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
+    type: atom
+    path: atom.xml
+    limit: 100
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
