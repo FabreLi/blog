@@ -2,7 +2,7 @@
 title: 基于Matlab画出电偶极子电场与电位的空间分布
 date: 2017-12-01
 tags:
-	- 大作业
+	- 实验
 	- 电磁场
 cdn: header-off
 header-img: https://i.loli.net/2017/10/23/59edea69588f9.jpg

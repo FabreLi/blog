@@ -7,6 +7,7 @@ title: Fabre Li 的博客
 subtitle: 你失望吗 我并不是你想象的样子
 author: Fabre Li
 description: 一个深夜睡不着的好去处。
+email: fabre11354@gmail.com
 keywords: "广州仔,单身狗,热爱HK,运动,游戏,工科狗"
 
 # URL
@@ -20,27 +21,10 @@ category_dir: categories
 code_dir: downloads/code
 permalink_defaults:
 
-#你的头像url
-avatar: https://i.loli.net/2018/02/21/5a8d70307ec97.jpg
 
-# SubNav
-subnav:
-  github: "https://github.com/FabreLi"
-  #weibo: "#"
-  #rss: "#"
-  #zhihu: "#"
-  #qq: "#"
-  #weixin: "#"
-  #jianshu: "#"
-  #douban: "#"
-  #segmentfault: "#"
-  #bilibili: "#"
-  #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
-  #facebook: "#"
-  #google: "#"
-  #twitter: "#"
-  #linkedin: "#"
+# Miscellaneous
+google_analytics: 'UA-93768121-1'
+favicon: /favicon.png
 
 
 # Directory
@@ -48,7 +32,7 @@ source_dir: source
 public_dir: public
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -109,6 +93,16 @@ disqus_shortname: fabreli
 
 theme: yilia
 exclude_generator:
+
+# Content
+# 文章太长，截断按钮文字
+excerpt_link: 'more'
+# 文章卡片右下角常驻链接，不需要请设置为false
+show_all_link: '展开全文'
+# 数学公式
+mathjax: false
+# 是否在新窗口打开链接
+open_in_new: false
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
