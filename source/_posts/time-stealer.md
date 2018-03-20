@@ -7,7 +7,7 @@ tags:
 cdn: header-off
 header-img: https://ooo.0o0.ooo/2017/04/18/58f61b6592043.jpg
 ---
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28285910&auto=0&height=66"></iframe>
 
 朋友圈突然看到有朋友在秀在一起666天的恩爱。
 
@@ -16,6 +16,8 @@ header-img: https://ooo.0o0.ooo/2017/04/18/58f61b6592043.jpg
 再仔细一看，2015年6月22日。
 
 一不留神，原来已经过了那么久的了啊。
+
+<!--more-->
 
 >是啊，你一不小心都奔三了。
 

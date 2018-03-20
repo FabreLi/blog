@@ -7,13 +7,15 @@ cdn: header-off
 header-img: https://ooo.0o0.ooo/2017/06/24/594e7a27505d1.jpg
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26112696&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26112696&auto=0&height=66"></iframe>
 
 >你又不缺朋友，你缺的是男朋友。
 
 前几个星期龙泽和陈老板跟我说过：「你又不缺朋友，你缺的是女朋友。」
 
 昨晚把这句话转赠给了老野。
+
+<!--more-->
 ***
 
 # 朋友

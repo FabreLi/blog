@@ -20,6 +20,7 @@ header-img: https://ooo.0o0.ooo/2017/05/04/590b0ea5ca0da.jpg
 
 ![Fabregas](https://ooo.0o0.ooo/2017/05/04/590b200120c35.jpg)
 
+<!--more-->
 ***
 
 2011年夏天，澳大利亚，布里斯班。

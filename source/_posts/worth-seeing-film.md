@@ -15,6 +15,8 @@ header-img: https://i.loli.net/2018/01/26/5a6ae4e31ef66.jpg
 
 ![奇迹男孩](https://i.loli.net/2018/01/26/5a6ad409db0fe.jpg)
 
+<!--more-->
+
 摘取自其文章的部分文字（原文 link:<a href="https://mp.weixin.qq.com/s?__biz=MzI3MjI4MzgwNA==&mid=2247486486&idx=1&sn=560c9144e3531bd72eb2e93c80c1625b&chksm=eb35ade5dc4224f3484f31b02ad939905becc6ae3b8d71ea89be18101877594139c17b869221&scene=0#rd">『请多带你们自己和你们的孩子去看看这种电影，谢谢。』</a>)
 
 >但《奇迹男孩》的高明之处就在于，它并不是一个仅仅围绕“奇迹男孩”的伟光正故事，相反它以奥吉为中心晕染开来，采用多个角色的视角，反映“硬币的另一面”。

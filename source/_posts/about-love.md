@@ -7,7 +7,7 @@ cdn: header-off
 header-img: https://ooo.0o0.ooo/2017/06/04/59340ee182a33.jpg
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=471403427&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=471403427&auto=0&height=66"></iframe>
 
 世界那么大，偏偏喜欢你。
 
@@ -16,8 +16,10 @@ header-img: https://ooo.0o0.ooo/2017/06/04/59340ee182a33.jpg
 是啊，其他球队那么好，而你呢，七年只进了两次欧冠，五年没拿过任何冠军，各种弱旅都能输，还经常弄得我心情烦躁，可这有什么办法呢？
 
 **我只喜欢你，不喜欢别人啊。**
+
+<!--more-->
 ***
-	
+
 发现自己和利物浦还是有挺多相似的。
 
 我们都有过曾经，但现在，我们也只剩曾经了。

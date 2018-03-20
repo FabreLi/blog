@@ -18,6 +18,8 @@ header-img: https://ooo.0o0.ooo/2017/03/27/58d8c789e32eb.jpg
 
 **不知道从什么时候开始，校运会第二天在机室吃火锅，校庆下午在机室聚会，都成为了数理社的传统。**
 
+<!--more-->
+
 ![数理社聚会](https://ww3.sinaimg.cn/large/006tNc79gy1ff9btxzmt6j30sg0g0gmu.jpg)
 ![数理社聚会](https://ooo.0o0.ooo/2017/05/20/59204cb2e6722.jpg)
 

@@ -7,7 +7,7 @@ cdn: header-off
 header-img: https://ooo.0o0.ooo/2017/05/19/591edb1630899.jpg
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=410654090&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=410654090&auto=0&height=66"></iframe>
 
 # 这个世界需要更多的大麻茶
 
@@ -16,6 +16,8 @@ header-img: https://ooo.0o0.ooo/2017/05/19/591edb1630899.jpg
 >「哇，大麻茶，你们广东人的专属毒品哎。」
 
 前几天喝着大麻茶走回宿舍的时候撞见一个踢球的，他这样对我说。
+
+<!--more-->
 
 ![维他柠檬茶.jpg](https://ooo.0o0.ooo/2017/05/19/591edbe59c97a.jpg)
 

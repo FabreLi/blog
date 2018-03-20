@@ -6,7 +6,7 @@ tags:
 cdn: header-off
 header-img: https://i.loli.net/2017/10/24/59ef4ac999850.png
 ---
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=431096897&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=431096897&auto=0&height=66"></iframe>
 
 >洗澡是最适合思考的时刻。
 
@@ -18,6 +18,7 @@ header-img: https://i.loli.net/2017/10/24/59ef4ac999850.png
 
 因此在洗澡的十多分钟里，独处一室，没有其他事可做，除了放声高歌以为，也就只能沉思了。由于 <del>五音不全等</del> 各种原因，洗澡时只能思考一下人生和世事。
 
+<!--more-->
 ***
 
 ## 相亲

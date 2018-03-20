@@ -8,7 +8,7 @@ cdn: header-off
 header-img: https://i.loli.net/2017/07/29/597b97319983c.jpg
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29392800&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29392800&auto=0&height=66"></iframe>
 
 >和男票冷战两天，我刚才才发现他...
 
@@ -20,6 +20,7 @@ header-img: https://i.loli.net/2017/07/29/597b97319983c.jpg
 
 **或许这就是爱情本身的奇妙之处吧。**
 
+<!--more-->
 ***
 
 # 算什么男人

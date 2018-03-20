@@ -6,7 +6,7 @@ tags:
 cdn: header-off
 header-img: https://ooo.0o0.ooo/2017/07/01/5957b1b173e7c.jpg
 ---
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=171108&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=171108&auto=0&height=66"></iframe>
 
 **1997年7月1日，香港回归，还不到四个月大的我怎么也不会想到，十多年后这块年龄跟我相仿的土地，竟会成为我心中中国的最后一块净土。**
 
@@ -17,6 +17,8 @@ header-img: https://ooo.0o0.ooo/2017/07/01/5957b1b173e7c.jpg
 无论是地理位置、饮食文化、语言文化还有各个方面都无比相近，就如同两兄弟一般。
 
 所以，时常会怀念老广的味道，也时常会怀念老港的味道。
+
+<!--more-->
 
 # 港乐
 

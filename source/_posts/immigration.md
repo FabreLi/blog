@@ -20,6 +20,8 @@ header-img: https://i.loli.net/2017/08/10/598c134da4817.jpg
 </div>
 彩福龙虾日常 78 HKD 一斤，还有 38 HKD 一个的椰皇炖燕窝，对比起内地是一个很良心的价格了。
 
+<!--more-->
+
 <h2>日式拉面</h2>
 ![一蘭拉面](https://i.loli.net/2017/08/10/598c18849a271.jpg)
 <div style="text-align:center">

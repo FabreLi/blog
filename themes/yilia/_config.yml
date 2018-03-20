@@ -2,12 +2,12 @@
 
 menu:
   主页: /
-  实验: /experiments
+  实验: https://experiments.fabre-li.com/
 
 # SubNav
 subnav:
   github: "https://github.com/FabreLi"
-  #weibo: "https://weibo.com/p/1005051935143351/home?from=page_100505_profile&wvr=6&mod=data"
+  weibo: "https://weibo.com/p/1005051935143351/home?from=page_100505_profile&wvr=6&mod=data"
   rss: "https://fabre-li.com/atom.xml"
   #zhihu: "#"
   #qq: "#"
@@ -123,4 +123,4 @@ friends:
   Eric Kwan: http://tsang.site
   CK: http://leslie-ck.com
 
-aboutme: 睡不着就会来的地方。
+aboutme: Fabre Li，<br/>广州仔，单身狗，热爱HK，运动，工科狗。<br/><br/>深夜睡不着就会来的地方。
