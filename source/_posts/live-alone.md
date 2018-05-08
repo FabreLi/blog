@@ -5,6 +5,8 @@ tags:
 	- 生活
 ---
 
+{% aplayer "睡前服" "麦浚龙" "http://music.163.com/song/media/outer/url?id=34834448.mp3" "autoplay=false" "width=330" "height=86" %}
+
 前几天跟我妈说了毕业之后出来租屋子住不想在家住。
 
 一直很渴望独立生活。
